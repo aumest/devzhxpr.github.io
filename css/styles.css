@@ -11383,7 +11383,7 @@ header.masthead .bg-circle-4 {
 }
 
 .loadingbox:nth-child(2n-1){
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0,0,0,0.3);
 }
 
 .loadingbox{
@@ -11393,7 +11393,8 @@ header.masthead .bg-circle-4 {
   position: relative;
   transition: all .2s ease;   
   background-color: #000;
-  z-index: 100000;  
+  z-index: 100000;
+  float: left;
 }
 
 
@@ -11408,7 +11409,7 @@ header.masthead .bg-circle-4 {
   }
 
   .loadingbox:nth-child(4n),.loadingbox:nth-child(4n-3) {
-    background-color: rgba(0,0,0,0.05);
+    background-color: rgba(0,0,0,0.3);    
   }
 
 }
@@ -11423,7 +11424,7 @@ header.masthead .bg-circle-4 {
   }
 
   .loadingbox:nth-child(2n-1){
-    background-color:rgba(0,0,0,0.05);
+    background-color:rgba(0,0,0,0.3);
   }
 
 }
